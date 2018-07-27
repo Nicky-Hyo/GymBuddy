@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SessionActivity">
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/session_enter_location"/>
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/session_yyyy_mm_dd"/>
+
+    <EditText
+        android:id="@+id/edtExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/session_kind_of_exercise"/>
+
+    <EditText
+        android:id="@+id/edtSets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/session_number_of_sets"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/session_number_of_reps"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/addSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/session_add_session"/>
+
+</LinearLayout>

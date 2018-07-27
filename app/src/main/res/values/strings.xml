@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gym Buddy</string>
+    <string name="login_enter_your_email_address">Enter your Email Address</string>
+    <string name="login_enter_your_password">Enter your Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_if_you_don_t_have_an_account_yet_you_can_register">If you don\'t have an account yet, you can register.</string>
+    <string name="register_retype_again">Retype Again</string>
+    <string name="register_enter_password">Enter Password</string>
+    <string name="register_enter_your_email">Enter your Email</string>
+    <string name="register_enter_your_last_name">Enter your Last name</string>
+    <string name="register_enter_your_first_name">Enter your First Name</string>
+    <string name="register_register">Register</string>
+    <string name="main_profile">Profile</string>
+    <string name="main_sessions">Sessions</string>
+    <string name="main_instructors">Instructors</string>
+    <string name="main_gyms">Gyms</string>
+    <string name="title_activity_gym">Map</string>
+    <string name="session_enter_location">Enter Location</string>
+    <string name="session_kind_of_exercise">Kind of Exercise</string>
+    <string name="session_number_of_sets">Number of sets</string>
+    <string name="session_number_of_reps">Number of reps</string>
+    <string name="session_yyyy_mm_dd">YYYY-MM-DD</string>
+    <string name="session_add_session">Add Session</string>
+    <string name="gender">Enter your gender</string>
+    <string name="age">age</string>
+</resources>
